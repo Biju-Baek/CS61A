@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cat q5 test",
+            "type": "python",
+            "request": "launch",
+            "program": "ok",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args" : [
+                "-q",
+                "05"
+            ]
+        },
+        {
+            "name": "hog q4 test",
+            "type": "python",
+            "request": "launch",
+            "program": "ok",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args" : [
+                "-q",
+                "04"
+            ]
+        },
+        {
+            "name": "hog q5 test",
+            "type": "python",
+            "request": "launch",
+            "program": "ok",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args" : [
+                "-q",
+                "05"
+            ]
+        }
+        
+    ]
+}
