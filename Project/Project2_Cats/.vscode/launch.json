@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "cat q6 test suite 1 case 6",
+            "type": "python",
+            "request": "launch",
+            "program": "ok",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args" : [
+                "-q",
+                "06",
+                "--suite",
+                "1",
+                "--case",
+                "6"
+            ]
+        },
+        {
+            "name": "cat q6 test",
+            "type": "python",
+            "request": "launch",
+            "program": "ok",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args" : [
+                "-q",
+                "06"
+            ]
+        },
+
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
